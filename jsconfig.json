@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",          // 👈 important
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./app/*"]     // 👈 point to app directory
     }
   }
 }
